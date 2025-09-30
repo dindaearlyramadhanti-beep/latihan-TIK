@@ -6,6 +6,11 @@ body {
         margin: 50px auto;
         padding: 20px;
         baground-color: white;
-        border-radius: 15px;
-        box-shadow: O 4px 8px rgba(O,O,O,O.1);
+        border-radius: 15px; /* Membuat sudut menjadi melengkung */
+        box-shadow: O 4px 8px rgba(O,O,O,O.1); /* Efek bayangan */
+    }
+
+    .kartu-profil img {
+        width: 150px;
+        border-radius: 50%; /* Trik untuk membuat gambar persegi panjang menjadi lingkaran sempurna */
     }
